@@ -54,9 +54,11 @@
 }
 
 .nuggies {
-    max-width: auto;
-    height: 600px;
-    border: 3px solid red;
+    position: fixed;
+    right: 0px;
+    height: auto;
+    width: 35%;
+    border-radius: 4vh;
 }
 
 .video {
@@ -89,7 +91,10 @@ h2 {
 }
 
 html {
-    background-color: rgb(71, 68, 68)
+    background-color: rgb(71, 68, 68);
+
+
+
 }
 
 
@@ -98,7 +103,7 @@ html {
 .indeximg {
     width: 50%;
     height: auto;
-    position: absolute;
+    position: fixed;
     right: 2px;
     top: auto;
     border-radius: 3vh;
@@ -106,22 +111,19 @@ html {
 }
 
 .textleft {
-    position: absolute;
-    left: 0px;
-    top: auto;
+  
+    display: inline-block;
+    float: left;
+    
     width: 50%;
     color: white;
     font-family: "Comic Sans MS", "Comic Sans";
 }
 
-.page-footer {
-    position: absolute;
-    bottom: 0ch;
-    width: 100%;
-}
-
-.feet {
-    margin-top: 70vh;
+footer{
+    background-color: #efefef;
+    flex: 0 0 50px;/*or just height:50px;*/
+    margin-top: auto;
     background-color: rgba(92, 92, 128, 0.295);
 }
 
@@ -133,28 +135,27 @@ html {
     margin: 0px;
 }
 
-.mySlides {
-    display: none;
-}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
 
 .img {
     vertical-align: middle;
 }
 
-.slideshow-container {
-    position: absolute;
-    height: 20vh;
-    right: 2px;
-    top: auto;
-    border-radius: 3vh;
-    color: red;
-}
+
 
 .round {
-    width: 100vh;
-    height: auto;
+    width: 80%;
+    display: inline-block;
+    float: right;
+
     border-radius: 3vh;
-    color: red;
+   
+  
 }
 
 .active {
@@ -188,16 +189,43 @@ html {
 .imagehomestyle {
     border-radius: 2vh;
     height: auto;
-    position: absolute;
+    position: fixed;
     right: 2px;
     top: auto;
 }
 
 .topright {
     border-radius: 2vh;
-    width: 50%;
+    width: 40%;
+
+    flex: 0 0 50px;/*or just height:50px;*/
+    margin-left: auto;
+}
+
+.zingerimage {
+    border-radius: 5%;
+    width: 40%;
     height: auto;
-    position: absolute;
+    position: fixed;
     right: 2px;
     top: auto;
+
+}
+
+
+.whopper {
+    position: absolute;
+    right: 0px;
+    height: auto;
+    width: 49%;
+    border-radius: 4vh;
+}
+
+.poggeries {
+    position: fixed;
+    left: 350px;
+    padding: 0;
+    margin: 0;
+    background-color: #ff00ff;
+
 }
