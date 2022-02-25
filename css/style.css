@@ -112,8 +112,8 @@ html {
 
 .textleft {
   
-    display: inline-block;
     float: left;
+    box-sizing: border-box;
     
     width: 50%;
     color: white;
@@ -124,6 +124,8 @@ footer{
     background-color: #efefef;
     flex: 0 0 50px;/*or just height:50px;*/
     margin-top: auto;
+    display: block;
+
     background-color: rgba(92, 92, 128, 0.295);
 }
 
@@ -149,10 +151,9 @@ body {
 
 
 .round {
-    width: 80%;
-    display: inline-block;
-    float: right;
-
+    width: 48vw;
+    float: left;
+    margin-left: 10px;
     border-radius: 3vh;
    
   
@@ -189,7 +190,8 @@ body {
 .imagehomestyle {
     border-radius: 2vh;
     height: auto;
-    position: fixed;
+    width: 50%;
+    float: left;
     right: 2px;
     top: auto;
 }
@@ -197,9 +199,14 @@ body {
 .topright {
     border-radius: 2vh;
     width: 40%;
-
+    float: left;
+    box-sizing: border-box;
     flex: 0 0 50px;/*or just height:50px;*/
-    margin-left: auto;
+  
+}
+
+.block {
+    display: block;
 }
 
 .zingerimage {
@@ -214,11 +221,11 @@ body {
 
 
 .whopper {
-    position: absolute;
-    right: 0px;
     height: auto;
-    width: 49%;
+    width: 49vw;
     border-radius: 4vh;
+    float: left;
+    box-sizing: border-box;
 }
 
 .poggeries {
