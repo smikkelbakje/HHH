@@ -229,10 +229,10 @@ body {
 }
 
 .poggeries {
-    position: fixed;
-    left: 350px;
+    float: left;
+  
     padding: 0;
     margin: 0;
-    background-color: #ff00ff;
+
 
 }
