@@ -152,10 +152,10 @@ body {
 
 .round {
     width: 48vw;
+    height: 30vw;
     float: left;
     margin-left: 10px;
-    border-radius: 3vh;
-   
+    border-radius: 3vh;     
   
 }
 
