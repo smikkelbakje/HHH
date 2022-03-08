@@ -1,3 +1,9 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
 .burger1 {
     width: 100%;
     text-align: center;
@@ -28,7 +34,6 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: "Comic Sans MS", "Comic Sans";
 }
 
 
@@ -39,26 +44,26 @@
     color: black;
 }
 
-
-/* Add a color to the active/current link */
-
 .menubalk a.active {
     background-color: #aa0404;
     color: white;
 }
 
 .tosti {
-    max-width: 80%;
-    height: 100%;
-    border: 3px solid red;
+    float: left;
+    height: auto;
+    width: 45vw;
+    border-radius: 3%;
+    margin-left: 1vw;
 }
 
 .nuggies {
-    position: fixed;
-    right: 0px;
     height: auto;
-    width: 35%;
+    width: 35vw;
+    float: left;
     border-radius: 4vh;
+    margin-left: 5vw;
+    margin-bottom: 10px;
 }
 
 .video {
@@ -67,38 +72,26 @@
     padding: 0px;
 }
 
-
-/* dark mode compatible maken */
-
 h5 {
-    color: white
+    color: white;
 }
 
 li {
-    color: white
+    color: white;
 }
 
 h2 {
-    color: white
-}
-
-* {
-    margin: 0;
+    color: white;
+    margin-left: 10px;
 }
 
 .white-text {
-    color: white
+    color: white;
 }
 
 html {
     background-color: rgb(71, 68, 68);
-
-
-
 }
-
-
-/*lummers*/
 
 .indeximg {
     width: 50%;
@@ -111,52 +104,38 @@ html {
 }
 
 .textleft {
-  
     float: left;
     box-sizing: border-box;
-    
     width: 50%;
     color: white;
-    font-family: "Comic Sans MS", "Comic Sans";
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
-footer{
+footer {
     background-color: #efefef;
-    flex: 0 0 50px;/*or just height:50px;*/
     margin-top: auto;
     display: block;
-
     background-color: rgba(92, 92, 128, 0.295);
-}
-
-* {
-    box-sizing: border-box;
-}
-
-* {
-    margin: 0px;
 }
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-
+}
 
 .img {
     vertical-align: middle;
 }
 
-
-
 .round {
-    width: 48vw;
+    width: 47vw;
     height: 30vw;
     float: left;
     margin-left: 10px;
-    border-radius: 3vh;     
-  
+    border-radius: 3vh;
+    margin-bottom: 10px;
 }
 
 .active {
@@ -190,7 +169,7 @@ body {
 .imagehomestyle {
     border-radius: 2vh;
     height: auto;
-    width: 50%;
+    width: 30vw;
     float: left;
     right: 2px;
     top: auto;
@@ -198,11 +177,9 @@ body {
 
 .topright {
     border-radius: 2vh;
-    width: 40%;
+    width: 4vw;
     float: left;
     box-sizing: border-box;
-    flex: 0 0 50px;/*or just height:50px;*/
-  
 }
 
 .block {
@@ -210,29 +187,65 @@ body {
 }
 
 .zingerimage {
-    border-radius: 5%;
-    width: 40%;
+    border-radius: 3%;
+    width: 35vw;
+    margin-bottom: 4vh;
     height: auto;
-    position: fixed;
-    right: 2px;
-    top: auto;
-
+    float: left;
+    margin-left: 5vw;
 }
-
 
 .whopper {
     height: auto;
-    width: 49vw;
+    width: 47vw;
     border-radius: 4vh;
     float: left;
+    margin-bottom: 1vw;
     box-sizing: border-box;
 }
 
 .poggeries {
     float: left;
-  
     padding: 0;
     margin: 0;
+}
 
+.patat {
+    float: left;
+    height: auto;
+    width: 45vw;
+    border-radius: 3vh;
+    margin-left: 1vw;
+    margin-bottom: 10px;
+}
 
+.bigmac {
+    float: left;
+    height: auto;
+    width: 48vw;
+    border-radius: 3vh;
+}
+
+.question {
+    font-weight: 600;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+#submit {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #297;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#submit:hover {
+    background-color: #3a8;
 }
