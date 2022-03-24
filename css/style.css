@@ -52,9 +52,9 @@
 .tosti {
     float: left;
     height: auto;
-    width: 45vw;
+    width: 38vw;
     border-radius: 3%;
-    margin-left: 1vw;
+    margin-left: 5vw;
 }
 
 .nuggies {
@@ -83,6 +83,8 @@ li {
 h2 {
     color: white;
     margin-left: 10px;
+    line-height: 50px;
+    font-size: 200%;
 }
 
 .white-text {
@@ -130,12 +132,12 @@ body {
 }
 
 .round {
-    width: 47vw;
-    height: 30vw;
+    width: 37vw;
+    height: 25vw;
     float: left;
-    margin-left: 10px;
+    margin-left: 10vw;
     border-radius: 3vh;
-    margin-bottom: 10px;
+    margin-bottom: 8vw;
 }
 
 .active {
@@ -177,7 +179,7 @@ body {
 
 .topright {
     border-radius: 2vh;
-    width: 4vw;
+    width: 40vw;
     float: left;
     box-sizing: border-box;
 }
@@ -197,11 +199,11 @@ body {
 
 .whopper {
     height: auto;
-    width: 47vw;
+    width: 37vw;
     border-radius: 4vh;
     float: left;
     margin-bottom: 1vw;
-    box-sizing: border-box;
+    margin-left: 5vw;
 }
 
 .poggeries {
@@ -213,16 +215,17 @@ body {
 .patat {
     float: left;
     height: auto;
-    width: 45vw;
+    width: 35vw;
     border-radius: 3vh;
-    margin-left: 1vw;
+    margin-left: 5vw;
     margin-bottom: 10px;
 }
 
 .bigmac {
     float: left;
     height: auto;
-    width: 48vw;
+    width: 35vw;
+    margin-left: 5vw;
     border-radius: 3vh;
 }
 
@@ -248,4 +251,48 @@ body {
 
 #submit:hover {
     background-color: #3a8;
+}
+
+.resencie {
+    background-color: white;
+    color: black;
+    border-radius: 3vh;
+    display: block;
+}
+
+.recensiecontainer {
+    margin: 20px;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+
+
+/* Firefox */
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #474444;
+}
+
+
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #474444;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #08000a;
+    border-radius: 10px;
+    border: 3px solid #474444;
+}
+
+p {
+    line-height: 23px;
+    font-size: 113%;
 }
