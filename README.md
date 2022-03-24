@@ -7,4 +7,4 @@ css/slideshow.css and javascrip/quiz.js is garbage
 same goes with crispychicken.html and slideshow.html
 
 
-This was a school project in 2022 (4H5)
+This was a school project in 2022
